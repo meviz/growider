@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="5.744" height="5.524" viewBox="0 0 5.744 5.524">
+    <defs>
+        <clipPath id="vanjpg70ja">
+            <path fill="none" d="M0 0H5.744V5.524H0z"/>
+        </clipPath>
+    </defs>
+    <g clip-path="url(#vanjpg70ja)">
+        <path fill="#9a9a9a" d="M.052.711l.032.06 2.441 4.5a.411.411 0 0 0 .345.248.417.417 0 0 0 .345-.248L5.654.78 5.7.705a.647.647 0 0 0 .048-.25C5.744.2 5.611 0 5.446 0H.3C.133 0 0 .2 0 .455a.634.634 0 0 0 .052.256z"/>
+    </g>
+</svg>

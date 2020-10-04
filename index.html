@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/select2.min.css">
+    <link rel="stylesheet" href="css/simplebar.css">
+    <link rel="stylesheet" href="css/hamburgers.css">
+    <link rel="stylesheet" href="css/icons.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/jquery3.5.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/select2.min.js"></script>
+    <script src="js/nicescroll.min.js"></script>
+    <script src="js/simplebar.min.js"></script>
+    <script src="js/highcharts.min.js"></script>
+    <script src="js/datatables.min.js"></script>
+    <script src="js/datatables.turkish.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="left-area">
+            <div class="hamburger-menu">
+                <div class="hamburger hamburger--slider">
+                    <div class="hamburger-box">
+                      <div class="hamburger-inner"></div>
+                    </div>
+                  </div>
+            </div>
+            <div class="logo">
+                <a href="#">
+                    <img src="img/logo.png">
+                </a>
+            </div>
+            <div class="menu-area">
+                <div class="select-custom select-project">
+                    <select name="state" value="">
+                        <option selected="true" data-img="./img/wix.svg" value="AL">Project name</option>
+                        <option data-img="./img/weebly.svg" value="WY">Project name 1</option>
+                        <option data-img="./img/weebly.svg" value="WY">Project name 2</option>
+                        <option data-img="./img/weebly.svg" value="WY">Project name 3</option>
+                        <option data-img="./img/weebly.svg" value="WY">Project name 4</option>
+                        <option data-img="./img/weebly.svg" value="WY">Project name 5</option>
+                        <option data-img="./img/weebly.svg" value="WY">Project name 6</option>
+                        <option data-img="./img/weebly.svg" value="WY">Project name 7</option>
+                        <option data-img="./img/weebly.svg" value="WY">Project name 8</option>
+                        <option data-img="./img/weebly.svg" value="WY">Project name 9</option>
+                    </select>
+                    <div class="blue-button">
+                        <button>+ Add Project</button>
+                    </div>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="#">Basic Reports</a></li>
+                        <li><a href="#">Keywords</a></li>
+                        <li><a href="#">Competitors</a></li>
+                        <li><a href="#">Project Settings</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="right-area">
+            <div class="menu">
+                <div class="notification-menu menu-toggle" data-target="#notification-list">
+                    <div class="with-badge" data-number="6">
+                        <img src="img/world-icon.svg">
+                    </div>
+                    <ul class="notification-list nice-scroll" id="notification-list">
+                        <li>
+                            <a href="#">
+                                <div class="notification-content">
+                                    <div class="notification-img">
+                                        <img src="img/notf-gray.svg">
+                                    </div>
+                                    <div class="notification-text">
+                                        <h2 class="notification-head">Keyword Groups</h2>
+                                        <p class="notification-paragraph">Lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum.</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="notification-content">
+                                    <div class="notification-img">
+                                        <img src="img/notf-gray.svg">
+                                    </div>
+                                    <div class="notification-text">
+                                        <h2 class="notification-head">Keyword Groups</h2>
+                                        <p class="notification-paragraph">Lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum.</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="notification-content">
+                                    <div class="notification-img">
+                                        <img src="img/notf-gray.svg">
+                                    </div>
+                                    <div class="notification-text">
+                                        <h2 class="notification-head">Keyword Groups</h2>
+                                        <p class="notification-paragraph">Lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum.</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="notification-content">
+                                    <div class="notification-img">
+                                        <img src="img/notf-gray.svg">
+                                    </div>
+                                    <div class="notification-text">
+                                        <h2 class="notification-head">Keyword Groups</h2>
+                                        <p class="notification-paragraph">Lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum.</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="profile menu-toggle" data-target="#profile-list">
+                    <div class="circle-img">
+                        <img src="img/profile-photo.jpg" alt="">
+                    </div>
+                    <div class="profile-menu">
+                        <ul class="profile-list" id="profile-list">
+                            <li>
+                                <a href="#">
+                                    <div class="profile-content">
+                                        <div class="profile-icon">
+                                            <img src="img/user.svg" alt="">
+                                        </div>
+                                        <div class="profile-text">Profile</div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="profile-content">
+                                        <div class="profile-icon">
+                                            <img src="img/update.svg" alt="">
+                                        </div>
+                                        <div class="profile-text">Update</div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="profile-content">
+                                        <div class="profile-icon">
+                                            <img src="img/logout.svg" alt="">
+                                        </div>
+                                        <div class="profile-text">Logout</div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="content-area">
+        <div class="container">
+            <div class="section-head">
+                <h2 class="text">Basic Project Statics</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-6 col-sm-6">
+                    <div class="ring-chart-area">
+                        <div class="ring-chart" id="ring-chart" data-percentage="45">
+                            <div class="ring-chart-text">
+                                <div class="number">198</div>
+                                <div class="text">Remaining Keywords</div>
+                            </div>
+                        </div>
+                        <div class="ring-bottom">
+                            <div class="ring-bottom-content">
+                                <div class="number">24</div>
+                                <div class="text">Keywords<br/>up <i class="fa fa-caret-up"></i></div>
+                            </div>
+                            <div class="line"></div>
+                            <div class="ring-bottom-content">
+                                <div class="number">1</div>
+                                <div class="text">Keywords<br/>down <i class="fa fa-caret-down"></i></div>
+                            </div>
+                        </div>
+
+                        <button class="circle-button">+</button>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 mb-4 mb-sm-0">
+                    <div class="column-chart-area">
+                        <ul>
+                            <li class="column-content">
+                                <div class="w-100">
+                                    <div class="column-head">Your GW Score</div>
+                                    <div class="column-chart-content">
+                                        <div class="number">98%</div>
+                                        <div class="column-chart">
+                                            <!-- 
+                                                burada datasetlere percentage hesabı yapılmış şekilde yazılmalıdır.
+                                             -->
+                                            <div id="column-chart1" 
+                                                data-dataset="10,22,13,45,34,12,90,85,33,12" 
+                                                data-format="Jan 11 2019,Jan 12 2019,Jan 13 2019,Jan 14 2019,Jan 15 2019,Jan 16 2019,Jan 17 2019,Jan 18 2019,Jan 19 2019,Jan 20 2019"
+                                            ></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="column-content">
+                                <div class="w-100">
+                                    <div class="column-head">Competitors Avg. GW Score</div>
+                                    <div class="column-chart-content">
+                                        <div class="number">76%</div>
+                                        <div class="column-chart">
+                                            <div id="column-chart2" 
+                                                data-dataset="20,12,33,55,14,82,10,75,53,92"
+                                                data-format="Jan 11 2019,Jan 12 2019,Jan 13 2019,Jan 14 2019,Jan 15 2019,Jan 16 2019,Jan 17 2019,Jan 18 2019,Jan 19 2019,Jan 20 2019"
+                                            ></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 mt-4 mt-lg-0">
+                    <div class="line-chart-area">
+                        <div class="line-chart-head">
+                            <div class="text">Keywords on first 3 results</div>
+                            <div class="white-select">
+                                <select name="state" value="">
+                                    <option selected="true" data-img="./img/wix.svg" value="AL">Daily</option>
+                                    <option data-img="./img/wix.svg" value="AL">Weekly</option>
+                                    <option data-img="./img/wix.svg" value="AL">Monthly</option>
+                                </select>
+                            </div>
+                        </div>
+                        <!--
+                            data-dataset : her noktalı virgül bir veri setini ifade ediyor. 
+                            data-colors : her noktalı virgül bir veri setinin rengini ifade ediyor. 
+                            veri setindeki verilerin sayısı data formattaki eleman sayısı ile aynı olmalıdır.
+                        -->
+                        <div class="line-chart" id="line-chart1" 
+                            data-format="Jan 2020,Feb 2020,Mar 2020,Apr 2020,May 2020,Jun 2020"
+                            data-total="31.000,25.000"
+                            data-dataset="5,10,15,5,10,20;15,0,5,10,7.5,10"
+                            data-colors="rgba(109, 162, 255,1);#dcdcdc"
+                            data-names="Project Name,Competitors Avg."></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section-head">
+                <h2 class="text">Basic Competitor Statics</h2>
+                <div class="white-select">
+                    <select name="state" value="">
+                        <option selected="true" data-img="./img/wix.svg" value="AL">Project name</option>
+                        <option data-img="./img/weebly.svg" value="WY">Project name 1</option>
+                        <option data-img="./img/weebly.svg" value="WY">Project name 2</option>
+                        <option data-img="./img/weebly.svg" value="WY">Project name 3</option>
+                        <option data-img="./img/weebly.svg" value="WY">Project name 4</option>
+                        <option data-img="./img/weebly.svg" value="WY">Project name 5</option>
+                        <option data-img="./img/weebly.svg" value="WY">Project name 6</option>
+                        <option data-img="./img/weebly.svg" value="WY">Project name 7</option>
+                        <option data-img="./img/weebly.svg" value="WY">Project name 8</option>
+                        <option data-img="./img/weebly.svg" value="WY">Project name 9</option>
+                      </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 mb-4">
+                    <div class="white-table nice-scroll">
+                        <table id="table_id" class="custom-datatable">
+                            <thead>
+                                <tr>
+                                    <th class="no-sort">
+                                        <div class="text">Domain</div>
+                                    </th>
+                                    <th>
+                                        <div class="text">Keywords on first 3 results</div>
+                                    </th>
+                                    <th>
+                                        <div class="text">Keywords on first 5 results</div>
+                                    </th>
+                                    <th>
+                                        <div class="text">Keywords on first 10 results</div>
+                                    </th>
+                                    <th>
+                                        <div class="text">Keywords on first 20 results</div>
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><img src="img/wix.svg">Yourwebsite.com</td>
+                                    <td>1</td>
+                                    <td>1</td>
+                                    <td>1</td>
+                                    <td>1</td>
+                                </tr>
+                                <tr>
+                                    <td><img src="img/weebly.svg">Yourwebsite.com</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                </tr>
+                                <tr>
+                                    <td><img src="img/weebly.svg">Yourwebsite.com</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                </tr>
+                                <tr>
+                                    <td><img src="img/weebly.svg">Yourwebsite.com</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                </tr>
+                                <tr>
+                                    <td><img src="img/weebly.svg">Yourwebsite.com</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                </tr>
+                                <tr>
+                                    <td><img src="img/weebly.svg">Yourwebsite.com</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                </tr>
+                                <tr>
+                                    <td><img src="img/weebly.svg">Yourwebsite.com</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                </tr>
+                                <tr>
+                                    <td><img src="img/weebly.svg">Yourwebsite.com</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                </tr>
+                                <tr>
+                                    <td><img src="img/wix.svg">Yourwebsite.com</td>
+                                    <td>1</td>
+                                    <td>1</td>
+                                    <td>1</td>
+                                    <td>1</td>
+                                </tr>
+                                <tr>
+                                    <td><img src="img/weebly.svg">Yourwebsite.com</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                </tr>
+                                <tr>
+                                    <td><img src="img/weebly.svg">Yourwebsite.com</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                </tr>
+                                <tr>
+                                    <td><img src="img/weebly.svg">Yourwebsite.com</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                </tr>
+                                <tr>
+                                    <td><img src="img/weebly.svg">Yourwebsite.com</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                </tr>
+                                <tr>
+                                    <td><img src="img/weebly.svg">Yourwebsite.com</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                </tr>
+                                <tr>
+                                    <td><img src="img/weebly.svg">Yourwebsite.com</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                </tr>
+                                <tr>
+                                    <td><img src="img/weebly.svg">Yourwebsite.com</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/custom.js"></script>
+    <script src="js/line-chart.js"></script>
+    <script src="js/mini-column-chart.js"></script>
+</body>
+</html>
